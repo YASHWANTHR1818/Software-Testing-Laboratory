@@ -16,6 +16,28 @@ Write a python program to check the number is prime or not and inspect for failu
 8. Stop the program.
 
 ### Program:
+```
+num = input()
+flag = 0
+if num.isnumeric():
+ z = int(num)
+ if (z ==2):
+ flag = 1
+ if(z > 2):
+ for i in range(2,z//2):
+ if z%i ==0:
+ flag = 0
+ break
+ else:
+ flag = 1
+ if(flag == 1):
+ print("Prime Number")
+ else:
+ print("Not a Prime Number")
+else:
+ print("Enter a Positive Number")
+```
+
 
 
 
@@ -30,6 +52,11 @@ Write a python program to check the number is prime or not and inspect for failu
 
 
 ### Output:
+![WhatsApp Image 2025-04-17 at 08 14 12_36609a85](https://github.com/user-attachments/assets/2f34f663-9a9f-4750-a468-8a59b593dfe2)
+
+![WhatsApp Image 2025-04-17 at 08 14 11_04b4449f](https://github.com/user-attachments/assets/2e0b2805-3883-4eaa-b090-e035df615753)
+
+
 
 
 
