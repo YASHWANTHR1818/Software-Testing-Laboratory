@@ -16,6 +16,22 @@ Write a python program to check the number is Armstrong number or not and inspec
 9.	Stop the program.
 
 ### Program:
+```
+number = int(input("Enter a number: "))
+sum = 0
+num = number
+
+while num > 0:
+    current_digit = num % 10
+    sum += current_digit ** 3
+    num //= 10
+
+if sum == number:
+    print("It is an Armstrong Number.")
+else:
+    print("It is not an Armstrong Number.")
+```
+
 
 
 
@@ -30,6 +46,9 @@ Write a python program to check the number is Armstrong number or not and inspec
 
 
 ### Output:
+![WhatsApp Image 2025-05-08 at 08 18 26_c74918fb](https://github.com/user-attachments/assets/cb168054-ae29-4db5-9a96-3d062c6c105b)
+
+
 
 
 
